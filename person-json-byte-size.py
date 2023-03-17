@@ -1,15 +1,15 @@
 import json
 
-message = {
+person = {
   "name": "John Doe",
   "age": 30,
   "isStudent": False
 }
 
 # Encode the message as JSON
-encoded_message = json.dumps(message).encode('utf-8')
+encoded_person = json.dumps(person).encode('utf-8')
 
 # Calculate the byte size
-byte_size = len(encoded_message)
+byte_size = len(encoded_person)
 
 print("Byte size of message:", byte_size)
